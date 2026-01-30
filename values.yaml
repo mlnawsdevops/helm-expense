@@ -1,6 +1,7 @@
 deployment:
   replicas: 2
-  imageVersion: alpine
+  # imageVersion: alpine
+  imageVersion: latest
 service: 
   type: LoadBalancer
   port: 80
