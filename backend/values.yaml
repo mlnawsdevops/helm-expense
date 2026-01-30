@@ -5,4 +5,4 @@ deployment:
   replicas: 2
 service:
   port: 8080
-  type: clusterIP
+  type: ClusterIP
