@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: backend
+  namespace: expense
+  labels:
+    project: expense
+    tier: backend
+    app: backend
+spec:
+  replicas: {{ .Values.deployment.replicas }}
+  selector: 
+    matchLabels:
+      project: expense
+      app: backend
+      tier: backend
+  template:
+    metadata:
+      labels:
+        project: expense
+        tier: backend
+        app: backend
+    spec:
+      containers:
+      - name: backend 
+        image: mlndockerhub/backend:{{ .Values.deployment.imageVersion }}

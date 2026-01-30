@@ -1,0 +1,8 @@
+hpa:
+  cpuUtilization: 20
+deployment:
+  imageVersion: v1 
+  replicas: 2
+service:
+  port: 8080
+  type: clusterIP
