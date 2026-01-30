@@ -6,7 +6,7 @@ metadata:
     app: nginx
     tier: frontend
 spec:
-  replicas: {{ .values.deployment.replicas }}
+  replicas: {{ .Values.deployment.replicas }}
   selector:
     matchLabels:
       app: nginx 
@@ -19,4 +19,4 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:{{ .values.deployment.imageVersion }} # this is called place-holder
+        image: nginx:{{ .Values.deployment.imageVersion }} # this is called place-holder
