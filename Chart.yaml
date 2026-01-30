@@ -1,5 +1,5 @@
 #Charts.yml --> C should be capital
 apiVersion: v1 
 name: nginx 
-version: 0.0.1
+version: 0.0.2
 description: This chart is to manage nginx application
