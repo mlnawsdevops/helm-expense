@@ -1,4 +1,4 @@
-deploment:
+deployment:
   replicas: 2
   imageVersion: alpine
 service: 
