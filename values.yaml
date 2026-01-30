@@ -2,5 +2,5 @@ deployment:
   replicas: 2
   imageVersion: alpine
 service: 
-  type: clusterIP
+  type: LoadBalancer
   port: 80
