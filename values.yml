@@ -1,0 +1,6 @@
+deploment:
+  replicas: 2
+  imageVersion: alpine
+service: 
+  type: clusterIP
+  port: 80
