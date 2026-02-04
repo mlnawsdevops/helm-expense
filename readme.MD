@@ -1,11 +1,12 @@
 # helm 
 
-1. Chart.yaml
-2. values.yaml
-3. templates
-        1. deployment.yaml
-        2. service.yaml
-        3.manifest.yaml
+### file structure
+Chart.yaml
+values.yaml
+templates
+    1. deployment.yaml
+    2. service.yaml
+    3.manifest.yaml
 
 ### helm installation
 Ref: https://helm.sh/docs/intro/install/
