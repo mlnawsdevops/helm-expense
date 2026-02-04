@@ -1,6 +1,6 @@
 # helm 
 
-### file structure
+## file structure
 1. Chart.yaml
 2. values.yaml
 3. templates
@@ -8,7 +8,7 @@
     2. service.yaml
     3. manifest.yaml
 
-### helm installation
+## helm installation
 Ref: https://helm.sh/docs/intro/install/
 ```
 curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-4
@@ -16,7 +16,7 @@ chmod 700 get_helm.sh
 ./get_helm.sh
 ```
 
-### helm commands
+## helm commands
 ```
 1. helm intall <chart-name> .
 2. helm list
